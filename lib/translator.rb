@@ -2,7 +2,7 @@
 
 def load_library
   require "yaml"
-  emojis = YAML::('lib/emoticons.yml')
+  emojis = YAML.('lib/emoticons.yml')
   return emojis
 end
 
