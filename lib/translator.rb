@@ -2,7 +2,9 @@
 require "yaml"
 
 def load_library(path)
-  emojis = YAML.('path')
+  puts 'path'
+  puts path
+  emojis = YAML.(path)
   return emojis
 end
 
